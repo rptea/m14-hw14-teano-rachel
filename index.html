@@ -10,80 +10,101 @@
 
 <body>
   <!-- your code here -->
-  <div class="p-4">
-    <header></header>
-      <h1 class="text-center">rptea</h1>
-    </header>
-  </div>
+  <div class="container-xl">
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #c7e7ff;">
-    <div class="container-fluid">
-      <a class="navbar-brand ps-5" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #c7e7ff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">rptea</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="https://picsum.photos/1920/600" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="https://picsum.photos/1920/601" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://picsum.photos/1920/602" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="row"> 
+      <div class="col-md-4 pt-3">
+        <h1>About Me</h1>
+        <p>Hi, I'm Rachel—a curious, creative, and quietly determined person who’s always looking for ways to grow. I value thoughtfulness, a good sense of humor, and finding meaning in the little things. Whether I’m learning something new or just taking time to recharge, I try to stay grounded and true to myself.</p>
+        <ul class="list-group">
+          <li class="list-group-item"><strong>From:</strong> Jacksonville, FL</li>
+          <li class="list-group-item"><strong>Status:</strong> Grad student</li>
+          <li class="list-group-item"><strong>Links:</strong> <a href="https://github.com/rptea" class="pe-auto">GitHub</a> <a href="https://fable.co/rach-345603535877?referralID=TqiQDvpNd2">Fable</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
 
-  <main>
-    <div class="card mb-3 p-5" style="max-width: auto;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="Images/books.jpg" class="img-fluid rounded-start" alt="books">
-        </div>
-        <div class="col-md-8">
+      <div class="col-md-8 pt-3">
+        <div class="card text-dark bg-light mb-3">
           <div class="card-body">
-            <h5 class="card-title">Hobbies</h5>
+            <h1>Hobbies</h1>
             <p class="card-text">One of my favorite hobbies is reading—there’s nothing like getting lost in a good book. Since the start of the year, I’ve read seven books and I’m aiming to reach a goal of 24 by the end of the year. I enjoy a variety of genres, especially stories that explore complex themes, rich worldbuilding, or philosophical questions. A few of my favorite reads so far this year include <em>Empire of Gold</em> by S.A. Chakraborty, a sweeping fantasy steeped in Middle Eastern folklore; <em>James</em> by Percival Everett, a powerful reimagining of <em>Adventures of Huckleberry Finn</em> through the lens of race and agency; and <em>Babel</em> by R.F. Kuang, a dark academic fantasy that examines language, colonialism, and rebellion.</p>
             <p class="card-text">Outside of reading, I love spending time with my cat, Radish, who brings a lot of personality and joy into my everyday routine. I also enjoy playing video games—especially narrative-driven or cozy games—and going on walks to unwind and clear my head. Lately, I’ve been training to start running again. I really miss it and want to build back the habit, both because it makes me feel good and because I’m working toward a healthier, more active lifestyle.</p>
           </div>
         </div>
       </div>
-    </div>
+    </div> 
 
-    <div class="card mb-3 p-5" style="max-width: auto;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="Images/last-of-us-show.jpg" class="img-fluid rounded-start" alt="the last of us show">
-        </div>
-        <div class="col-md-8">
+    <div class="row">
+      <div class="col-md-12 pt-3">
+        <div class="card text-dark bg-light mb-3">
           <div class="card-body">
-            <h5 class="card-title">Interests</h5>
+            <h1>Interests</h1>
             <p class="card-text">I’m a big fan of <em>Last of Us</em> franchise—not just the TV adaptation, but the entire world and story that started with the games. I’m currently watching Season 2 and loving every moment. One of my favorite things about the series is how it stays loyal to the original story while flawlessly expanding on the background characters and their emotional journeys. It’s rare to see a franchise handle adaptation with so much care and depth, and it’s something I really admire</p>
+            
             <p class="card-text">I’m also a huge Formula 1 fan—this is my second season watching, and I’ve become completely hooked. My favorite driver is Oscar Piastri, who drives for McLaren, currently the team with the fastest car on the grid. I truly believe he’s the next World Champion—mark my words! I love the mix of strategy, speed, and precision that goes into each race, and every race weekend is something I genuinely look forward to.</p>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="card mb-3 p-5" style="max-width: auto;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src="..." class="img-fluid rounded-start" alt="...">
-        </div>
-        <div class="col-md-8">
+      <div class="col-md-12 pt-3">
+        <div class="card text-dark bg-light mb-3">
           <div class="card-body">
-            <h5 class="card-title">Career Goals</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <h1>Career Goals</h1>
+            <p class="card-text">My long-term goal is to become a front-end developer. I really enjoy the creative side of web development—taking an idea or a design and turning it into something functional and easy to use is super satisfying to me. I’m currently focused on building a strong foundation in HTML, CSS, and JavaScript, and I’m excited to keep learning frameworks like React as I grow. Eventually, I’d love to work on projects that are not only visually appealing but also accessible and meaningful for users.</p>
+            <p class="card-text">While I see myself focusing on front-end development in the long run, I’m also interested in exploring back-end development at some point just to see what it’s like. I think understanding how everything works behind the scenes—like databases, APIs, and servers—will make me a better developer overall. I’m still early in my journey, but I’m excited to keep building, learning, and figuring out the kind of work that really clicks with me.</p>
           </div>
         </div>
       </div>
     </div>
-  </main>
+
+    <footer class="text-center p-2" style="background-color: #c7e7ff;">
+      <p>&copy;Rachel Teano 2025</p>
+    </footer>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
